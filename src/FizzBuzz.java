@@ -13,7 +13,7 @@ class FizzBuzz {
             i += 1;}
     }
 
-    private static void doFizzBuzz(Integer i) {
+    public static void doFizzBuzz(Integer i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
